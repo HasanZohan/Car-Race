@@ -1,0 +1,50 @@
+void drawTree4()
+{
+    glPushMatrix();
+
+        glColor3f(0.0, 1.0, 0.0);
+        glTranslatef(725,400,0);
+        circle(13,17);
+
+    glPopMatrix();
+
+	glPushMatrix();
+
+        glColor3f(0.0, 1.0, 0.0);
+        glTranslatef(712,399,0);
+        circle(12,16);
+
+	glPopMatrix();
+
+	glPushMatrix();
+
+        glColor3f(0.0, 1.0, 0.0);
+        glTranslatef(738,399,0);
+        circle(12,16);
+
+	glPopMatrix();
+
+	glPushMatrix();
+
+        glColor3f(0.0, 1.0, 0.0);
+        glTranslatef(718.5,411,0);
+        circle(12,16);
+
+	glPopMatrix();
+
+	glPushMatrix();
+
+        glColor3f(0.0, 1.0, 0.0);
+        glTranslatef(731.5,411,0);
+        circle(12,16);
+
+	glPopMatrix();
+
+	glBegin(GL_QUADS);
+        glColor3f(0.7,0.2,0.2);
+        glVertex2f(721, 383);
+        glVertex2f(721, 360);
+        glVertex2f(729, 360);
+        glVertex2f(729, 383);
+    glEnd();
+}
